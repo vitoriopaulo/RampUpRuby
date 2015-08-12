@@ -27,7 +27,7 @@ puts "Third question: How much does it cost monthly the utilities (HVAC, Energy,
 utilities = gets.chomp
 puts "\n"
 
-puts "How many roomates share the apartment?"
+puts "How many roomates share the apartment? Note: Propmt ONLY whole numbers (Ex.: 1, 2, 3, 4, 5, etc)"
 number_people = gets.chomp
 puts "\n"
 
