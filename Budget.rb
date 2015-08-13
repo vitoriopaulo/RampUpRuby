@@ -6,10 +6,10 @@ puts "\n"
 puts "This program will calculate the monthly cost per roomate sharing an apartment."
 puts "\n"
 
-puts "You will be prompted to ask some questions. Please kindly answer then as follow."
+puts "You will be asked to prompt some questions. Please kindly answer then as follow."
 puts "\n"
 
-puts "*Before start, be aware to enter only numbers, limiting then to two decimals. (Ex: 75, 12.51, 69.7)."
+puts "*Note: Before start, be aware to enter only numbers, limiting then to two decimals. (Ex: 75, 12.51, 69.7)."
 puts "\n"
 
 puts "Let's go!"
@@ -27,7 +27,7 @@ puts "Third question: How much does it cost monthly the utilities (HVAC, Energy,
 utilities = gets.chomp
 puts "\n"
 
-puts "How many roomates share the apartment? Note: Please prompt ONLY whole numbers (Ex.: 1, 2, 3, 4, 5, etc)."
+puts "How many roommates share the apartment? Note: Please prompt ONLY whole numbers (Ex.: 1, 2, 3, 4, 5, etc)."
 number_people = gets.chomp
 puts "\n"
 
