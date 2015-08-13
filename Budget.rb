@@ -3,10 +3,10 @@ puts "\n"
 puts "Hi! Hope you're doing good!"
 puts "\n"
 
-puts "This program will calculate the monthly cost per roomate sharing an apartment."
+puts "This program will calculate the monthly cost per roommate sharing an apartment."
 puts "\n"
 
-puts "You will be asked to prompt some questions. Please kindly answer then as follow."
+puts "You will be asked to prompt some questions. Please kindly answer then as follow. Remember to always press Enter to confirm your imput data."
 puts "\n"
 
 puts "*Note: Before start, be aware to enter only numbers, limiting then to two decimals. (Ex: 75, 12.51, 69.7)."
