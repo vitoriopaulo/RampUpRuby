@@ -1,16 +1,18 @@
-#StartUp Institute Ruby RampUp 2015.2
+#StartUp Institute Ruby RampUp 2015
 
 #Mentor: Samuel Backus
 
 #Program name: Ontheroad.rb
 
-#Path: C/Documents/STINSTRB/EXERC/WEEK02
+#Path: Favorites/Vitorio/rubys
 
 #Dev Author: Vitorio Paulo
 
+#Last update: 08.12.2015, Wednesday.
+
 puts "\n"
 
-puts "Hi! Welcome to the game On the Road!"
+puts "Hi! Welcome to the game - On the Road!"
 puts "\n"
 
 puts "You'll be a traveler on a long journey."
@@ -35,7 +37,7 @@ puts "\n"
 puts "And don't forget to bring with you enough food and beverages."
 puts "\n"
 
-puts "Are you all set to go " + name + "?" + "  If yes, please prompt y. Otherwise type n."
+puts "Are you all set to go " + name + "?" + "  If yes, please prompt y. Otherwise no, type n. Then, press Enter to confirm your imputed data."
 answer1 = gets.chomp
 puts "\n"
 
@@ -58,7 +60,7 @@ puts "\n"
 puts "In 30 miles you will reach the fork. We are on the way."
 puts "\n"
 
-puts "Are you feeling thirsty " + name + "?" + " If yes, please type y. Otherwise prompt n."
+puts "Are you feeling thirsty " + name + "?" + " If yes, please type y. Otherwise no, prompt n. Then, press Enter to confirm your answer."
 answer2 = gets.chomp
 puts "\n"
 
@@ -72,7 +74,7 @@ puts "\n"
 puts name + ", you are doing great. You are driving in a good pace. The fork is even closer right now."
 puts "\n"
 
-puts "At this point of the trip you might be hungry. What about having something you brought to eat? Does that sound a good idea? If yes, please prompt y. Otherwise type n."
+puts "At this point of the trip you might be hungry. What about having something you brought to eat? Does that sound a good idea? If yes, please prompt y. Otherwise no, type n."
 answer3 = gets.chomp
 puts "\n"
 
@@ -83,7 +85,7 @@ puts "That's fine " + name + ". Whenever you get hungry eat something. I'm sure 
 end
 puts "\n"
 
-puts "Let's keep moving. Now we are only a couple miles away from the fork. Both roads that connect the fork to the posible destinations doesn't have a gas station. But that is a gas station in one mile from here before reaching the fork. As such, if you need to put gas in the car or go to the bathroom (or both) before arriving in the destination of your choice, you have to act now. If you need to put gas in the car or go to the bathroom (or both) prompt y; otherwise type n."
+puts "Let's keep moving. Now we are only a couple miles away from the fork. Both roads that connect the fork to the posible destinations doesn't have a gas station. But that is a gas station in one mile from here before reaching the fork. As such, if you need to put gas in the car or go to the bathroom (or both) before arriving in the destination of your choice, you have to act now. If you need to put gas in the car or go to the bathroom (or both) prompt y; otherwise, type n. Then, press Enter to confirm your answer."
 answer4 = gets.chomp
 puts "\n"
 
@@ -94,7 +96,7 @@ puts "That's okay. Both roads that connect the fork to North or East are short i
 end
 puts "\n"
 
-puts name + ", it was worth your patience. Such great news! You've reached the fork. Congratulations! Now you have to decide where to go. Please kindly prompt n for North or e for East."
+puts name + ", it was worth your patience. Such great news! You've reached the fork. Congratulations! Now you have to decide where to go. Please kindly prompt n for North or e for East. Then, press Enter to confirm the answer of your choice. "
 answer5 = gets.chomp
 puts "\n"
 
