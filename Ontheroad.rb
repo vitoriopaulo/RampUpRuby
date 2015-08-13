@@ -2,13 +2,13 @@
 
 #Mentor: Samuel Backus
 
+#Author: Vitorio Paulo
+
+#Last update: 08.12.2015, Wednesday.
+
 #Program name: Ontheroad.rb
 
 #Path: Favorites/Vitorio/rubys
-
-#Dev Author: Vitorio Paulo
-
-#Last update: 08.12.2015, Wednesday.
 
 puts "\n"
 
