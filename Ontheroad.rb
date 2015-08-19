@@ -42,7 +42,7 @@ answer1 = gets.chomp
 puts "\n"
 
 while answer1 != "y" and answer1 != "n"
-	puts "Answer should ONLY be y or n my dear... Try again! :)"
+	puts "Ooooooops! Something went wrong... Answer should ONLY be y for yes or n for no my dear... Try again:"
 answer1 = gets.chomp
 end
 puts "\n"
@@ -91,7 +91,7 @@ answer3 = gets.chomp
 puts "\n"
 
 while answer3 != "y" and answer3 != "n"
-	puts "Answer is not an option my dear " + name + "... But no worries! I'll give you another chance: please ONLY type y for y or n for no:"
+	puts "Answer is not an option my dear " + name + "... But no worries! I'll give you another chance: please ONLY type y for yes or n for no:"
 answer3 = gets.chomp
 end
 puts "\n"
@@ -124,8 +124,8 @@ puts name + ", it was worth your patience. Such great news! You've reached the f
 answer5 = gets.chomp
 puts "\n"
 
-while answer5 != "y" and answer5 != "n"
-	puts "Answer should ONLY be n for NORTH or e for EAST my dear " + name + "... I know you're anxious to arrive in the destination of your choice. As such, try again:"
+while answer5 != "n" and answer5 != "e"
+	puts "Oooooops! Answer should ONLY be n for NORTH or e for EAST my dear " + name + "... I know you're anxious to arrive in the destination of your choice. As such, try again:"
 answer5 = gets.chomp
 end
 puts "\n"
