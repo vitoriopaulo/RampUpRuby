@@ -4,11 +4,11 @@
 
 #Author: Vitorio Paulo
 
-#Last update: 08.12.2015, Wednesday.
+#Last update: 08.19.2015, Wednesday.
 
 #Program name: Ontheroad.rb
 
-#Path: Favorites/Vitorio/rubys
+#Master Branch: Favorites/Vitorio/rubys
 
 puts "\n"
 
@@ -41,6 +41,12 @@ puts "Are you all set to go " + name + "?" + "  If yes, please prompt y. Otherwi
 answer1 = gets.chomp
 puts "\n"
 
+while answer1 != "y" and answer1 != "n"
+	puts "Answer should ONLY be y or n my dear... Try again! :)"
+answer1 = gets.chomp
+end
+puts "\n"
+
 if answer1 == "y"
 puts "Glad to hear you are all set. Let's keep moving."
 else answer1 == "n"
@@ -64,6 +70,12 @@ puts "Are you feeling thirsty " + name + "?" + " If yes, please type y. Otherwis
 answer2 = gets.chomp
 puts "\n"
 
+while answer2 != "y" and answer2 != "n"
+	puts "Oooops! It seems something went wrong... But there is no reason to panic! It seems you typed something different from y for yes or n for no. So let's try again: Please prompt ONLY y for yes or n for no:"
+answer2 = gets.chomp
+end
+puts "\n"
+
 if answer2 == "y"
 puts "Drink some water or any other refreshment of your taste you've brought. It's very important to keep yourself hydrated. But remember: you shouldn't have any alcohol beverage while driving. Drink and drive is against the law. I am sure you do not want to get in trouble."
 else answer2 == "n"
@@ -78,6 +90,12 @@ puts "At this point of the trip you might be hungry. What about having something
 answer3 = gets.chomp
 puts "\n"
 
+while answer3 != "y" and answer3 != "n"
+	puts "Answer is not an option my dear " + name + "... But no worries! I'll give you another chance: please ONLY type y for y or n for no:"
+answer3 = gets.chomp
+end
+puts "\n"
+
 if answer3 == "y"
 puts "Enjoy your meal " + name + ". Remember to eat slowly tough, it's healthier."
 else answer3 == "n"
@@ -85,8 +103,14 @@ puts "That's fine " + name + ". Whenever you get hungry eat something. I'm sure 
 end
 puts "\n"
 
-puts "Let's keep moving. Now we are only a couple miles away from the fork. Both roads that connect the fork to the posible destinations doesn't have a gas station. But that is a gas station in one mile from here before reaching the fork. As such, if you need to put gas in the car or go to the bathroom (or both) before arriving in the destination of your choice, you have to act now. If you need to put gas in the car or go to the bathroom (or both) prompt y; otherwise, type n. Then, press Enter to confirm your answer."
+puts "Let's keep moving. Now we are only a couple miles away from the fork. Both roads that connect the fork to the posible destinations doesn't have a gas station. But that is a gas station in one mile from here before reaching the fork. As such, if you need to put gas in the car or go to the bathroom (or both) before arriving in the destination of your choice, you have to act now. If you need to put gas in the car or go to the bathroom (or both) prompt y; otherwise no, type n. Then, press Enter to confirm your answer."
 answer4 = gets.chomp
+puts "\n"
+
+while answer4 != "y" and answer4 != "n"
+	puts name + ", answer is not acceptable. :( But calm down! There is no reason to get depressed. Let's try again. I'll give you another chance: prompt y for yes or n for no:"
+answer4 = gets.chomp
+end
 puts "\n"
 
 if answer4 == "y"
@@ -96,8 +120,14 @@ puts "That's okay. Both roads that connect the fork to North or East are short i
 end
 puts "\n"
 
-puts name + ", it was worth your patience. Such great news! You've reached the fork. Congratulations! Now you have to decide where to go. Please kindly prompt n for North or e for East. Then, press Enter to confirm the answer of your choice. "
+puts name + ", it was worth your patience. Such great news! You've reached the fork. Congratulations! Now you have to decide where to go. Please kindly prompt n for North or e for East. Then, press Enter to confirm the answer of your choice."
 answer5 = gets.chomp
+puts "\n"
+
+while answer5 != "y" and answer5 != "n"
+	puts "Answer should ONLY be n for NORTH or e for EAST my dear " + name + "... I know you're anxious to arrive in the destination of your choice. As such, try again:"
+answer5 = gets.chomp
+end
 puts "\n"
 
 if answer5 == "n"
