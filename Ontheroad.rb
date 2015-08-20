@@ -42,7 +42,7 @@ answer1 = gets.chomp
 puts "\n"
 
 while answer1 != "y" and answer1 != "n"
-	puts "Ooooooops! Something went wrong... Answer should ONLY be y for yes or n for no my dear... Try again:"
+puts "Ooooooops! Something went wrong... Answer should ONLY be y (for yes) or n (for no) my dear... Try again:"
 answer1 = gets.chomp
 end
 puts "\n"
@@ -71,7 +71,7 @@ answer2 = gets.chomp
 puts "\n"
 
 while answer2 != "y" and answer2 != "n"
-	puts "Oooops! It seems something went wrong... But there is no reason to panic! It seems you typed something different from y for yes or n for no. So let's try again: Please prompt ONLY y for yes or n for no:"
+puts "Oooops! It seems something went wrong... But there is no reason to panic! It seems you typed something different from y (for yes) or n (for no). So let's try again: Please prompt ONLY y (for yes) or n (for no):"
 answer2 = gets.chomp
 end
 puts "\n"
@@ -91,7 +91,7 @@ answer3 = gets.chomp
 puts "\n"
 
 while answer3 != "y" and answer3 != "n"
-	puts "Answer is not an option my dear " + name + "... But no worries! I'll give you another chance: please ONLY type y for yes or n for no:"
+puts "Answer is not an option my dear " + name + "... But no worries! I'll give you another chance: please ONLY type y (for yes) or n (for no):"
 answer3 = gets.chomp
 end
 puts "\n"
@@ -108,7 +108,7 @@ answer4 = gets.chomp
 puts "\n"
 
 while answer4 != "y" and answer4 != "n"
-	puts name + ", answer is not acceptable. :( But calm down! There is no reason to get depressed. Let's try again. I'll give you another chance: prompt y for yes or n for no:"
+puts name + ", I'm sorry to say that: prompted answer is not acceptable. :( But calm down! There is no reason to get depressed. Let's try again. I'll give you another chance: prompt y (for yes) or n (for no):"
 answer4 = gets.chomp
 end
 puts "\n"
@@ -120,12 +120,12 @@ puts "That's okay. Both roads that connect the fork to North or East are short i
 end
 puts "\n"
 
-puts name + ", it was worth your patience. Such great news! You've reached the fork. Congratulations! Now you have to decide where to go. Please kindly prompt n for North or e for East. Then, press Enter to confirm the answer of your choice."
+puts name + ", it was worth your patience. Such great news! You've reached the fork. Congratulations! Now you have to decide where to go. Please kindly prompt n (for North) or e (for East). Then, press Enter to confirm the answer:"
 answer5 = gets.chomp
 puts "\n"
 
 while answer5 != "n" and answer5 != "e"
-	puts "Oooooops! Answer should ONLY be n for NORTH or e for EAST my dear " + name + "... I know you're anxious to arrive in the destination of your choice. As such, try again:"
+puts "Oooooops! Answer should ONLY be n (for NORTH) or e (for EAST) my dear " + name + "... I know you're anxious to arrive in the destination of your choice. Don't put yourself down for such a small mistake... I'll give you another chance. Try again:"
 answer5 = gets.chomp
 end
 puts "\n"
@@ -137,10 +137,10 @@ puts "It seems you are feeling a bit tired and frustrated with humanity and need
 end 
 puts "\n"
 
-puts name + ", I have something to tell that might will upset you: game is over."
-puts "\n"
+puts name + ", I have something to tell that might will upset you: game is over... :("
+puts "\n" 
 
-puts "But before saying bye, I have good news: you are more then welcome to play this game again whenever you want."
+puts "But before saying bye, I have good news: you are more then welcome to play this game again whenever you want! :)"
 puts "\n"
 
 puts "Hope you had a lot of fun with us: On the Road."
