@@ -21,7 +21,7 @@ puts "\n"
 puts "You will be asked some questions. Please kindly answer then as follow."
 puts "\n"
 
-puts "First question: What's your name?"
+puts "First question: What's your name? Press Enter to confirm imputed data:"
 name = gets.chomp
 puts "\n"
 
@@ -31,7 +31,7 @@ puts "\n"
 puts "Let's keep moving."
 puts "\n"
 
-puts "Second question: How old are you? (Answer only with WHOLE numbers. Ex: 17, 117, etc)"
+puts "Second question: How old are you? (Answer only with WHOLE numbers. Ex: 17, 117, etc). Press Enter to confirm the imputed data:"
 age = gets.chomp
 puts "\n"
 
@@ -41,14 +41,21 @@ puts "\n"
 puts "You're in great shape for someone " + age + " years old." + " Congratulations! :)"
 puts "\n"
 
-puts "Third question: What day is today? NOTE: Please kindly prompt the answer based upon the following structure: Month Day, Year (i.e. August 19, 2015):"
+puts "Let's move forward."
+puts "\n"
+
+puts "Third question: What is the current year? Answer only with numbers (i.e. 2015). Press Enter to confirm the imputed data:"
+current_year = gets.chomp
+puts "\n"
+
+puts "Fourth question: What day is today? NOTE: Please prompt the answer based upon the following structure: Month Day (i.e. August 19):"
 today = gets.chomp
 puts "\n"
 
 puts "Good job " + name + "." + " Let's go ahead."
 puts "\n"
 
-puts "Fourth question: have you already celebrated your birthday this current year or are you blowing up the candles today?" + " If yes, type y. Otherwise no (you'll celebrate it 'till following New Years' Eve) prompt n:"
+puts "Fifth question: Have you already celebrated your birthday in this current year or are you blowing up the candles today?" + " If yes, type y. Otherwise no (you'll celebrate it 'till the end of the current year) prompt n:"
 birthday_answer = gets.chomp
 puts "\n"
 
@@ -61,9 +68,9 @@ puts "\n"
 puts name + ", good news!" + " All set." + " The year you were born has been succesfully data processed. Check it out as follow:" 
 
 if birthday_answer == "y"
-puts birth_year = (2015 - age.to_i)
+puts birth_year = (current_year.to_i - age.to_i)
 else birthday_answer == "n"
-puts birthday_year = (2014 - age.to_i)
+puts birthday_year = (current_year.to_i - age.to_i - 1)
 end
 puts "\n"
 
