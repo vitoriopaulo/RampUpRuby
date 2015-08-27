@@ -28,7 +28,7 @@ puts "\n"
 puts name + ", you will be asked to prompt some questions. Please kindly answer then as follow."
 puts "\n"
 
-puts "*NOTE1: Before start, be aware to prompt ONLY numbers, limiting then to TWO decimals. (i.e.: 75, 12.51, 69.7, and so on). You've got it. :)"
+puts "*NOTE1: Before start, be aware to prompt ONLY numbers (NOT characters!), limiting then to TWO decimals. (i.e.: 75, 12.51, 69.7, and so on). You've got it. :)"
 puts "\n"
 
 puts "NOTE2: Remember ALWAYS to press ENTER to confirm your imputed data. I'm sure you got it too " + name + "."
