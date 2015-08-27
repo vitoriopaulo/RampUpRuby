@@ -1,46 +1,66 @@
+#StartUp Institute Ruby RampUp 2015
+
+#Mentor: Samuel Backus
+
+#Author: Vitorio Paulo
+
+#Last update: 08.27.2015, Thursday.
+
+#Program name: Budget.rb
+
+#Master Branch: Favorites/Vitorio/rubys
+
 puts "\n"
 
-puts "Hi! Hope you're doing good!"
+puts "Hi! Hope you're doing good."
 puts "\n"
 
-puts "This program will calculate the monthly cost per roommate sharing an apartment."
+puts "Before start, please kindly introduce yourself:"
+name = gets.chomp
 puts "\n"
 
-puts "You will be asked to prompt some questions. Please kindly answer then as follow. Remember to always press Enter to confirm your imputed data."
+puts "Nice to meet you " + name + "!"
+
+puts "This program will calculate the monthly cost per roommate sharing an apartment; or condo; or house; whatsoever."
 puts "\n"
 
-puts "*Note: Before start, be aware to enter only numbers, limiting then to two decimals. (Ex: 75, 12.51, 69.7)."
+puts name + ", you will be asked to prompt some questions. Please kindly answer then as follow."
 puts "\n"
 
-puts "Let's go!"
+puts "*NOTE1: Before start, be aware to prompt ONLY WHOLE numbers, limiting then to TWO decimals. (i.e.: 75, 12.51, 69.7). You've got it. :)"
 puts "\n"
 
-puts "First question: How much does it cost monthly the rent?"
+puts "NOTE2: Remember ALWAYS to press ENTER to confirm your imputed data. I'm sure you got it too " + name + "."
+
+puts "All set. Let's go! :)"
+puts "\n"
+
+puts "1) First question: How much does it cost monthly the rent?"
 rent = gets.chomp
 puts "\n"
 
-puts "Second question: How much does it cost monthly the cable?"
+puts "2) Second question: How much does it cost monthly the cable?"
 cable = gets.chomp
 puts "\n"
 
-puts "Third question: How much does it cost monthly the utilities (HVAC, Energy, Water, etc)?"
+puts "3) Third question: How much does it cost monthly (in average) all of the utilities togheter (HVAC, Energy, Water, etc)?"
 utilities = gets.chomp
 puts "\n"
 
-puts "How many roommates share the apartment? Note: Please prompt ONLY whole numbers (Ex.: 1, 2, 3, 4, 5, etc)."
+puts "4) How many roommates share the apartment? NOTE: In this particular case, please prompt ONLY WHOLE numbers (i.e.: 1, 2, 3, 4, 5, and so on)."
 number_people = gets.chomp
 puts "\n"
 
-puts "Thank you! Great job."
+puts "Thank you " + name + "!" + "Nice job."
 puts "\n"
 
-puts "Monthly cost per roomate follows below:"
+puts "Monthly cost per roomate succesfully data processed. Result follows below:"
 puts "\n"
 
 puts ((rent.to_i + cable.to_i + utilities.to_f)/number_people.to_i).round(2)
 puts "\n"
 
-puts "It was a pleasure to assist you. Wish you a great day."
+puts "It was a pleasure to assist you " + name + "." + "Wish you a great day."
 puts "\n"
 
 puts "Bye!"
