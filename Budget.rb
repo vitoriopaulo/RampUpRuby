@@ -20,6 +20,7 @@ name = gets.chomp
 puts "\n"
 
 puts "Nice to meet you " + name + "!"
+puts "\n"
 
 puts "This program will calculate the monthly cost per roommate sharing an apartment; or condo; or house; whatsoever."
 puts "\n"
@@ -27,10 +28,11 @@ puts "\n"
 puts name + ", you will be asked to prompt some questions. Please kindly answer then as follow."
 puts "\n"
 
-puts "*NOTE1: Before start, be aware to prompt ONLY WHOLE numbers, limiting then to TWO decimals. (i.e.: 75, 12.51, 69.7). You've got it. :)"
+puts "*NOTE1: Before start, be aware to prompt ONLY WHOLE numbers, limiting then to TWO decimals. (i.e.: 75, 12.51, 69.7 and so on). You've got it. :)"
 puts "\n"
 
 puts "NOTE2: Remember ALWAYS to press ENTER to confirm your imputed data. I'm sure you got it too " + name + "."
+puts "\n"
 
 puts "All set. Let's go! :)"
 puts "\n"
@@ -51,7 +53,7 @@ puts "4) How many roommates share the apartment? NOTE: In this particular case, 
 number_people = gets.chomp
 puts "\n"
 
-puts "Thank you " + name + "!" + "Nice job."
+puts "Thank you " + name + "!" + " Nice job."
 puts "\n"
 
 puts "Monthly cost per roomate succesfully data processed. Result follows below:"
@@ -60,7 +62,7 @@ puts "\n"
 puts ((rent.to_i + cable.to_i + utilities.to_f)/number_people.to_i).round(2)
 puts "\n"
 
-puts "It was a pleasure to assist you " + name + "." + "Wish you a great day."
+puts "It was a pleasure to assist you today " + name + "." + " Wish you a great day and whenever you need help dealing with such matter, don't hesitate to use this program!."
 puts "\n"
 
 puts "Bye!"
